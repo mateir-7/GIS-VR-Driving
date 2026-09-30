@@ -9,6 +9,12 @@
 /[Mm]emoryCaptures/
 /[Rr]ecordings/
 
+# Unity Version Control
+/.plastic/
+ignore.conf
+
+/.utmp/
+
 # IDE
 .vs/
 .vscode/
