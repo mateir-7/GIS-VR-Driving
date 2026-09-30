@@ -1,6 +1,6 @@
 # Driving Simulator using GIS Data
 
-A Unity 6 VR driving simulator that builds a drivable slice of real-world Bucharest (the Piața Unirii area) procedurally from raw **OpenStreetMap** data. It uses no imported 3D city models. Streets, intersections, buildings, parks, water, street furniture and ambient traffic are all generated from a single `.osm` file and baked into the scene as static meshes.
+A Unity 6 VR driving simulator that builds a drivable slice of a real city procedurally from raw OpenStreetMap data. The current build uses the Piața Unirii area in Bucharest, but the location isn't hard-coded: exporting a different area from OpenStreetMap, setting the projection origin, and rebaking produces a new city/location from anywhere in the world. It uses no imported 3D city models. Streets, intersections, buildings, parks, water and street furniture are all generated from a single .osm file and baked into the scene as static meshes. 
 
 Bachelor's thesis, Faculty of Engineering in Foreign Languages (FILS), National University of Science and Technology POLITEHNICA Bucharest, 2026.
 
@@ -43,6 +43,7 @@ Streaming 3D tile solutions swap geometry at runtime as levels of detail change.
 | Operating system | Windows 10/11 (Quest Link is Windows-only) |
 | Meta Quest Link app | Latest |
 | Git + Git LFS | Required to clone (large binary assets are stored with LFS) |
+| Stylized Vehicles Pack | Not included in this repo because of its Asset Store license. Download it for free from the Asset Store and import it into Assets/VRTemplateAssets/Stylized Vehicles/ before opening the scene |
 
 These Unity packages are resolved automatically from `Packages/manifest.json` when the project opens:
 
@@ -79,13 +80,13 @@ These Unity packages are resolved automatically from `Packages/manifest.json` wh
 |---|---|
 | Steer | Grab the steering wheel with the controller grip and turn it |
 | Change gear | Grab the gear shift |
-| Throttle / brake | *[fill in your controller mapping]* |
+| Throttle / brake | Left/Right Trigger |
 
 ---
 
 ## Rebuilding the city from OSM data
 
-The baked city is already included in the repository. You only need these steps to rebake it or to use a different area.
+The baked city is already included in the repository. You only need these steps to rebake it or to use a different area. Any area covered by OpenStreetMap can be used, as long as it fits in their 50000 node limit.
 
 1. **Get OSM data.** Use the *Export* function on [openstreetmap.org](https://www.openstreetmap.org) for a small bounding box. Place the `.osm` file in `Assets/GIS/Data/`.
 2. Select the **OsmRoadBaker** GameObject and set `osmFile` to your file name. If the area is not centred on Piața Unirii, adjust the projection origin as well.
