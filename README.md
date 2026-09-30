@@ -66,7 +66,7 @@ These Unity packages are resolved automatically from `Packages/manifest.json` wh
 1. **Clone the repository with LFS:**
    ```bash
    git lfs install
-   git clone https://github.com/<your-username>/<repo-name>.git
+   git clone https://github.com/mateir-7/GIS-VR-Driving.git
    ```
 2. **Open the project in Unity Hub.** Choose *Add → Add project from disk* and select the cloned folder, then open it with Unity **6000.4.3f1**. The first import rebuilds the `Library/` folder and can take several minutes.
 3. **Check the XR settings.** Go to *Edit → Project Settings → XR Plug-in Management* and confirm that **OpenXR** is enabled on the Windows tab.
