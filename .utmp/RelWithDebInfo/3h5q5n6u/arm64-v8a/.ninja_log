@@ -1,0 +1,10 @@
+# ninja log v5
+39	1567	8016850540353704	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	23938ebcd52dd42d
+31	1607	8016850540741678	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	1fcb46a23e6ca709
+49	1615	8016850540872748	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	ffa0f73ad2c7b631
+9	1634	8016850540953067	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	a834bb0897708224
+15	1713	8016850541890172	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	d54b7a8f7102d3a1
+61	1927	8016850544092099	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	d5d52bafd218f2e5
+23	1933	8016850544115197	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	eb076c106cc5166e
+1	2023	8016850545040870	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	4dcffe0165eedced
+2023	2168	8016850546536394	C:/Users/matei/Unity/Redline Racing/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3h5q5n6u/obj/arm64-v8a/libgame.so	8ca88630a1aaed5f
