@@ -14,6 +14,12 @@ The simulator places the driver in a car, in seated VR on a Meta Quest 3, inside
           →  scene hierarchy  →  custom URP shaders
 ```
 
+### Demos
+
+https://youtu.be/vpDXW--5jp4 - Demonstration of automatically baking a city + a random part of New York
+
+https://youtu.be/PL34QQ8zAq4 - Demonstration of gameplay
+
 ### Features
 
 - **OSM parsing**: a streaming XML parser reads nodes, ways and tags. Coordinates are projected from WGS84 lat/lon to local metres with an equirectangular tangent-plane projection centred on Piața Unirii (1 Unity unit = 1 m).
